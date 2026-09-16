@@ -24,7 +24,8 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px 5vw;
   align-items: center;
   width: 100%;
 }
@@ -66,6 +67,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-block: 48px;
+  padding: 24px 10vw;
 }
 
 .intro-info {
@@ -107,7 +109,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 48px 128px;
+  padding: 48px 20vw;
   background-color: rgb(143, 167, 192);
   color: whitesmoke;
 }
